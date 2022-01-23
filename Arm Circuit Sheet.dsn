@@ -52,7 +52,7 @@ download the executable.-->
 		<FONT id='4'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
-			<WEIGHT>700</WEIGHT>
+			<WEIGHT>400</WEIGHT>
 			<ITALIC>0</ITALIC>
 			<UNDERLINE>0</UNDERLINE>
 			<STRIKEOUT>0</STRIKEOUT>
@@ -60,6 +60,16 @@ download the executable.-->
 			<FACENAME>Arial</FACENAME>
 		</FONT>
 		<FONT id='5'>
+			<HEIGHT>-13</HEIGHT>
+			<WIDTH>6</WIDTH>
+			<WEIGHT>700</WEIGHT>
+			<ITALIC>0</ITALIC>
+			<UNDERLINE>0</UNDERLINE>
+			<STRIKEOUT>0</STRIKEOUT>
+			<CHARSET>0</CHARSET>
+			<FACENAME>Arial</FACENAME>
+		</FONT>
+		<FONT id='6'>
 			<HEIGHT>-24</HEIGHT>
 			<WIDTH>13</WIDTH>
 			<WEIGHT>900</WEIGHT>
@@ -69,7 +79,7 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial Black</FACENAME>
 		</FONT>
-		<FONT id='6'>
+		<FONT id='7'>
 			<HEIGHT>-13</HEIGHT>
 			<WIDTH>6</WIDTH>
 			<WEIGHT>400</WEIGHT>
@@ -79,31 +89,26 @@ download the executable.-->
 			<CHARSET>0</CHARSET>
 			<FACENAME>Arial</FACENAME>
 		</FONT>
-		<STYLE id='5'>
+		<STYLE id='6'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
 			<THICKNESS>3</THICKNESS>
 		</STYLE>
-		<STYLE id='6'>
+		<STYLE id='7'>
 			<STYLE>0</STYLE>
 			<COLOR>000000</COLOR>
 			<THICKNESS>2</THICKNESS>
 		</STYLE>
-		<STYLE id='12'>
+		<STYLE id='8'>
 			<STYLE>5</STYLE>
 			<COLOR>000000</COLOR>
 			<THICKNESS>1</THICKNESS>
 		</STYLE>
-		<STYLE id='13'>
-			<STYLE>5</STYLE>
-			<COLOR>000000</COLOR>
-			<THICKNESS>1</THICKNESS>
-		</STYLE>
-		<FILL id='3'>
+		<FILL id='2'>
 			<INDEX>0</INDEX>
 			<COLOR>C0C0C0</COLOR>
 		</FILL>
-		<FILL id='4'>
+		<FILL id='3'>
 			<INDEX>0</INDEX>
 			<COLOR>AAAA00</COLOR>
 		</FILL>
@@ -111,15 +116,15 @@ download the executable.-->
 			<INDEX>0</INDEX>
 			<COLOR>808080</COLOR>
 		</FILL>
-		<FILL id='8'>
-			<INDEX>0</INDEX>
-			<COLOR>808080</COLOR>
-		</FILL>
 		<FILL id='10'>
 			<INDEX>0</INDEX>
-			<COLOR>808080</COLOR>
+			<COLOR>C08000</COLOR>
 		</FILL>
-		<SYMBOLDEF id='2'>
+		<FILL id='13'>
+			<INDEX>0</INDEX>
+			<COLOR>008000</COLOR>
+		</FILL>
+		<SYMBOLDEF id='1'>
 			<NAME type='0'>Arduino Uno</NAME>
 			<REF type='0'>U?</REF>
 			<DESCRIPTION>Arduino Uno R3</DESCRIPTION>
@@ -140,28 +145,28 @@ download the executable.-->
 				<PIN pos='178.00000,132.00000' which='0' elec='0' direction='2' part='0' number='11' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='178.00000,138.00000' which='0' elec='0' direction='2' part='0' number='12' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='178.00000,144.00000' which='0' elec='0' direction='2' part='0' number='D0' show='1' length='30' number_pos='5' centre_name='0'></PIN>
-				<RECTANGLE a='172.00000,36.00000' b='109.00000,150.00000' style='5' fill='4'/>
-				<TEXT pos='160.00000,145.00000' direction='3' font='3' color='000000'>D0 (RX)</TEXT>
-				<TEXT pos='160.00000,139.00000' direction='3' font='3' color='000000'>D1 (TX)</TEXT>
-				<TEXT pos='158.00000,133.00000' direction='3' font='3' color='000000'>D2 (INT 0)</TEXT>
-				<TEXT pos='148.00000,127.00000' direction='3' font='3' color='000000'>D3 (INT 1 / PWM)</TEXT>
-				<TEXT pos='166.00000,122.00000' direction='3' font='3' color='000000'>D4</TEXT>
-				<TEXT pos='157.00000,109.00000' direction='3' font='3' color='000000'>D6 (PWM)</TEXT>
-				<TEXT pos='166.00000,103.00000' direction='3' font='3' color='000000'>D7</TEXT>
-				<TEXT pos='166.00000,96.00000' direction='3' font='3' color='000000'>D8</TEXT>
-				<TEXT pos='157.00000,90.00000' direction='3' font='3' color='000000'>D9 (PWM)</TEXT>
-				<TEXT pos='143.00000,83.00000' direction='3' font='3' color='000000'>D10 (PWM / SPI - SS)</TEXT>
-				<TEXT pos='140.00000,77.00000' direction='3' font='3' color='000000'>D11 (PWM / SPI - MOSI)</TEXT>
-				<TEXT pos='149.00000,71.00000' direction='3' font='3' color='000000'>D12 (SPI - MISO)</TEXT>
-				<TEXT pos='150.00000,64.00000' direction='3' font='3' color='000000'>D13 (SPI - SCK)</TEXT>
-				<TEXT pos='111.00000,76.00000' direction='3' font='3' color='000000'>A0</TEXT>
-				<TEXT pos='111.00000,82.00000' direction='3' font='3' color='000000'>A1</TEXT>
-				<TEXT pos='111.00000,88.00000' direction='3' font='3' color='000000'>A2</TEXT>
-				<TEXT pos='111.00000,94.00000' direction='3' font='3' color='000000'>A3</TEXT>
-				<TEXT pos='111.00000,100.00000' direction='3' font='3' color='000000'>A4</TEXT>
-				<TEXT pos='111.00000,106.00000' direction='3' font='3' color='000000'>A5</TEXT>
-				<TEXT pos='111.00000,48.00000' direction='3' font='3' color='000000'>RST</TEXT>
-				<TEXT pos='111.00000,54.00000' direction='3' font='3' color='000000'>IOREF</TEXT>
+				<RECTANGLE a='172.00000,36.00000' b='109.00000,150.00000' style='6' fill='3'/>
+				<TEXT pos='160.00000,145.00000' direction='3' font='4' color='000000'>D0 (RX)</TEXT>
+				<TEXT pos='160.00000,139.00000' direction='3' font='4' color='000000'>D1 (TX)</TEXT>
+				<TEXT pos='158.00000,133.00000' direction='3' font='4' color='000000'>D2 (INT 0)</TEXT>
+				<TEXT pos='148.00000,127.00000' direction='3' font='4' color='000000'>D3 (INT 1 / PWM)</TEXT>
+				<TEXT pos='166.00000,122.00000' direction='3' font='4' color='000000'>D4</TEXT>
+				<TEXT pos='157.00000,109.00000' direction='3' font='4' color='000000'>D6 (PWM)</TEXT>
+				<TEXT pos='166.00000,103.00000' direction='3' font='4' color='000000'>D7</TEXT>
+				<TEXT pos='166.00000,96.00000' direction='3' font='4' color='000000'>D8</TEXT>
+				<TEXT pos='157.00000,90.00000' direction='3' font='4' color='000000'>D9 (PWM)</TEXT>
+				<TEXT pos='143.00000,83.00000' direction='3' font='4' color='000000'>D10 (PWM / SPI - SS)</TEXT>
+				<TEXT pos='140.00000,77.00000' direction='3' font='4' color='000000'>D11 (PWM / SPI - MOSI)</TEXT>
+				<TEXT pos='149.00000,71.00000' direction='3' font='4' color='000000'>D12 (SPI - MISO)</TEXT>
+				<TEXT pos='150.00000,64.00000' direction='3' font='4' color='000000'>D13 (SPI - SCK)</TEXT>
+				<TEXT pos='111.00000,76.00000' direction='3' font='4' color='000000'>A0</TEXT>
+				<TEXT pos='111.00000,82.00000' direction='3' font='4' color='000000'>A1</TEXT>
+				<TEXT pos='111.00000,88.00000' direction='3' font='4' color='000000'>A2</TEXT>
+				<TEXT pos='111.00000,94.00000' direction='3' font='4' color='000000'>A3</TEXT>
+				<TEXT pos='111.00000,100.00000' direction='3' font='4' color='000000'>A4</TEXT>
+				<TEXT pos='111.00000,106.00000' direction='3' font='4' color='000000'>A5</TEXT>
+				<TEXT pos='111.00000,48.00000' direction='3' font='4' color='000000'>RST</TEXT>
+				<TEXT pos='111.00000,54.00000' direction='3' font='4' color='000000'>IOREF</TEXT>
 				<PIN pos='178.00000,82.00000' which='0' elec='0' direction='2' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='178.00000,76.00000' which='0' elec='0' direction='2' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='178.00000,70.00000' which='0' elec='0' direction='2' part='0' number='3' show='1' length='30' number_pos='0' centre_name='0'></PIN>
@@ -175,21 +180,21 @@ download the executable.-->
 				<PIN pos='103.00000,98.00000' which='0' elec='0' direction='3' part='0' number='11' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='103.00000,104.00000' which='0' elec='0' direction='3' part='0' number='12' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='127.00000,156.00000' which='0' elec='0' direction='0' part='0' number='13' show='1' length='30' number_pos='0' centre_name='0'></PIN>
-				<TEXT pos='157.00000,115.00000' direction='3' font='3' color='000000'>D5 (PWM)</TEXT>
-				<TEXT pos='124.00000,149.00000' direction='3' font='3' color='000000'>GND</TEXT>
+				<TEXT pos='157.00000,115.00000' direction='3' font='4' color='000000'>D5 (PWM)</TEXT>
+				<TEXT pos='124.00000,149.00000' direction='3' font='4' color='000000'>GND</TEXT>
 				<PIN pos='178.00000,55.00000' which='0' elec='0' direction='2' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
 				<PIN pos='178.00000,49.00000' which='0' elec='0' direction='2' part='0' number='2' show='1' length='30' number_pos='0' centre_name='0'></PIN>
-				<TEXT pos='156.00000,56.00000' direction='3' font='3' color='000000'>I2C - DATA</TEXT>
-				<TEXT pos='158.00000,50.00000' direction='3' font='3' color='000000'>I2C - CLK</TEXT>
+				<TEXT pos='156.00000,56.00000' direction='3' font='4' color='000000'>I2C - DATA</TEXT>
+				<TEXT pos='158.00000,50.00000' direction='3' font='4' color='000000'>I2C - CLK</TEXT>
 				<PIN pos='178.00000,42.00000' which='0' elec='0' direction='2' part='0' number='1' show='1' length='30' number_pos='0' centre_name='0'></PIN>
-				<TEXT pos='163.00000,43.00000' direction='3' font='3' color='000000'>AREF</TEXT>
-				<RECTANGLE a='101.00000,120.00000' b='118.00000,131.00000' style='6' fill='3'/>
-				<TEXT pos='107.00000,125.00000' direction='3' font='4' color='000000'>USB</TEXT>
-				<TEXT pos='106.00000,128.00000' direction='3' font='4' color='000000'>PORT</TEXT>
-				<TEXT pos='134.00000,117.00000' direction='0' font='5' color='000000'>ARDUINO UNO R3</TEXT>
-				<TEXT pos='148.00000,40.00000' direction='3' font='6' color='000000'>5V</TEXT>
-				<TEXT pos='135.00000,40.00000' direction='3' font='6' color='000000'>3.3V</TEXT>
-				<TEXT pos='122.00000,40.00000' direction='3' font='6' color='000000'>Vin</TEXT>
+				<TEXT pos='163.00000,43.00000' direction='3' font='4' color='000000'>AREF</TEXT>
+				<RECTANGLE a='101.00000,120.00000' b='118.00000,131.00000' style='7' fill='2'/>
+				<TEXT pos='107.00000,125.00000' direction='3' font='5' color='000000'>USB</TEXT>
+				<TEXT pos='106.00000,128.00000' direction='3' font='5' color='000000'>PORT</TEXT>
+				<TEXT pos='134.00000,117.00000' direction='0' font='6' color='000000'>ARDUINO UNO R3</TEXT>
+				<TEXT pos='148.00000,40.00000' direction='3' font='7' color='000000'>5V</TEXT>
+				<TEXT pos='135.00000,40.00000' direction='3' font='7' color='000000'>3.3V</TEXT>
+				<TEXT pos='122.00000,40.00000' direction='3' font='7' color='000000'>Vin</TEXT>
 			</TinyCAD>
 		</SYMBOLDEF>
 		<OPTIONS>
@@ -208,7 +213,7 @@ download the executable.-->
 			<COLOR_NOTETEXT_LINE>FF0000</COLOR_NOTETEXT_LINE>
 			<COLOR_NOTETEXT_TEXT>FF0000</COLOR_NOTETEXT_TEXT>
 		</OPTIONS>
-		<SYMBOL id='2' pos='102.00000,132.00000' part='0' rotate='0' can_scale='1' show_power='0' scale_x='1.00000' scale_y='1.00000'>
+		<SYMBOL id='1' pos='102.00000,132.00000' part='0' rotate='0' can_scale='1' show_power='0' scale_x='1.00000' scale_y='1.00000'>
 			<FIELD type='0' description='Name' value='Arduino Uno' show='1' pos='1.00000,-6.00000'/>
 			<FIELD type='0' description='Ref' value='U?' show='1' pos='1.00000,-3.60000'/>
 			<FIELD type='0' description='$$SPICE_PROLOG_PRIORITY' value='5' show='0' pos='1.00000,-1.20000'/>
@@ -233,31 +238,30 @@ download the executable.-->
 			<HINT pin='D0' net='17'/>
 			<HINT pin='Vin' net='13'/>
 		</SYMBOL>
-		<RECTANGLE a='128.00000,40.00000' b='158.00000,56.00000' style='13' fill='10'/>
-		<TEXT pos='138.00000,50.00000' direction='3' font='0' color='000000'>Thumb Servo</TEXT>
-		<LABEL pos='128.00000,46.00000' direction='3' font='0' color='000000' style='0'>PWM</LABEL>
+		<RECTANGLE a='128.00000,40.00000' b='158.00000,56.00000' style='8' fill='10'/>
+		<TEXT pos='138.00000,50.00000' direction='3' font='3' color='000000'>Thumb Servo</TEXT>
+		<LABEL pos='128.00000,46.00000' direction='3' font='3' color='000000' style='0'>PWM</LABEL>
 		<WIRE a='128.00000,46.00000' b='114.00000,46.00000'/>
 		<WIRE a='114.00000,46.00000' b='114.00000,64.00000'/>
 		<WIRE a='114.00000,64.00000' b='102.00000,64.00000'/>
-		<LABEL pos='128.00000,50.00000' direction='3' font='0' color='000000' style='0'>5V</LABEL>
-		<LABEL pos='128.00000,54.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
-		<WIRE a='51.00000,131.00000' b='130.00000,131.00000'/>
+		<LABEL pos='128.00000,50.00000' direction='3' font='3' color='000000' style='0'>5V</LABEL>
+		<LABEL pos='128.00000,54.00000' direction='3' font='3' color='000000' style='0'>GND</LABEL>
 		<WIRE a='130.00000,82.00000' b='130.00000,58.00000'/>
 		<WIRE a='130.00000,58.00000' b='122.00000,58.00000'/>
 		<WIRE a='122.00000,54.00000' b='128.00000,54.00000'/>
 		<WIRE a='110.00000,26.00000' b='110.00000,6.00000'/>
 		<WIRE a='110.00000,6.00000' b='74.00000,6.00000'/>
 		<WIRE a='128.00000,50.00000' b='110.00000,50.00000'/>
-		<RECTANGLE a='148.00000,70.00000' b='206.00000,82.00000' style='12' fill='8'/>
-		<RECTANGLE a='148.00000,92.00000' b='206.00000,104.00000' style='12' fill='8'/>
-		<TEXT pos='174.00000,80.00000' direction='3' font='0' color='000000'>Actuator 1</TEXT>
-		<TEXT pos='174.00000,102.00000' direction='3' font='0' color='000000'>Actuator 2</TEXT>
-		<LABEL pos='148.00000,78.00000' direction='3' font='0' color='000000' style='0'>6V</LABEL>
-		<LABEL pos='148.00000,100.00000' direction='3' font='0' color='000000' style='0'>6V</LABEL>
-		<LABEL pos='148.00000,82.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
-		<LABEL pos='148.00000,104.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
-		<LABEL pos='148.00000,74.00000' direction='3' font='0' color='000000' style='0'>SIG</LABEL>
-		<LABEL pos='148.00000,96.00000' direction='3' font='0' color='000000' style='0'>SIG</LABEL>
+		<RECTANGLE a='148.00000,70.00000' b='206.00000,82.00000' style='8' fill='5'/>
+		<RECTANGLE a='148.00000,92.00000' b='206.00000,104.00000' style='8' fill='5'/>
+		<TEXT pos='174.00000,80.00000' direction='3' font='3' color='000000'>Actuator 1</TEXT>
+		<TEXT pos='174.00000,102.00000' direction='3' font='3' color='000000'>Actuator 2</TEXT>
+		<LABEL pos='148.00000,78.00000' direction='3' font='3' color='000000' style='0'>6V</LABEL>
+		<LABEL pos='148.00000,100.00000' direction='3' font='3' color='000000' style='0'>6V</LABEL>
+		<LABEL pos='148.00000,82.00000' direction='3' font='3' color='000000' style='0'>GND</LABEL>
+		<LABEL pos='148.00000,104.00000' direction='3' font='3' color='000000' style='0'>GND</LABEL>
+		<LABEL pos='148.00000,74.00000' direction='3' font='3' color='000000' style='0'>SIG</LABEL>
+		<LABEL pos='148.00000,96.00000' direction='3' font='3' color='000000' style='0'>SIG</LABEL>
 		<WIRE a='148.00000,74.00000' b='118.00000,74.00000'/>
 		<WIRE a='118.00000,74.00000' b='118.00000,83.00000'/>
 		<WIRE a='118.00000,83.00000' b='102.00000,83.00000'/>
@@ -270,11 +274,11 @@ download the executable.-->
 		<WIRE a='148.00000,82.00000' b='130.00000,82.00000'/>
 		<JUNCTION pos='130.00000,82.00000'/>
 		<WIRE a='130.00000,104.00000' b='130.00000,82.00000'/>
-		<RECTANGLE a='128.00000,16.00000' b='158.00000,32.00000' style='13' fill='5'/>
-		<TEXT pos='140.00000,26.00000' direction='3' font='0' color='000000'>Wrist Servo</TEXT>
-		<LABEL pos='128.00000,22.00000' direction='3' font='0' color='000000' style='0'>PWM</LABEL>
-		<LABEL pos='128.00000,26.00000' direction='3' font='0' color='000000' style='0'>5V</LABEL>
-		<LABEL pos='128.00000,30.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
+		<RECTANGLE a='128.00000,16.00000' b='158.00000,32.00000' style='8' fill='10'/>
+		<TEXT pos='140.00000,26.00000' direction='3' font='3' color='000000'>Wrist Servo</TEXT>
+		<LABEL pos='128.00000,22.00000' direction='3' font='3' color='000000' style='0'>PWM</LABEL>
+		<LABEL pos='128.00000,26.00000' direction='3' font='3' color='000000' style='0'>5V</LABEL>
+		<LABEL pos='128.00000,30.00000' direction='3' font='3' color='000000' style='0'>GND</LABEL>
 		<WIRE a='128.00000,30.00000' b='122.00000,30.00000'/>
 		<WIRE a='122.00000,54.00000' b='122.00000,58.00000'/>
 		<JUNCTION pos='122.00000,54.00000'/>
@@ -285,5 +289,26 @@ download the executable.-->
 		<WIRE a='128.00000,22.00000' b='106.00000,22.00000'/>
 		<WIRE a='106.00000,22.00000' b='106.00000,57.00000'/>
 		<WIRE a='106.00000,57.00000' b='102.00000,57.00000'/>
+		<RECTANGLE a='30.00000,154.00000' b='64.00000,176.00000' style='8' fill='13'/>
+		<LABEL pos='32.00000,154.00000' direction='3' font='0' color='000000' style='0'>SIG</LABEL>
+		<LABEL pos='38.00000,154.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
+		<LABEL pos='48.00000,154.00000' direction='3' font='0' color='000000' style='0'>V+</LABEL>
+		<LABEL pos='52.00000,154.00000' direction='3' font='0' color='000000' style='0'>GND</LABEL>
+		<LABEL pos='58.00000,154.00000' direction='3' font='0' color='000000' style='0'>V-</LABEL>
+		<WIRE a='32.00000,154.00000' b='32.00000,132.00000'/>
+		<WIRE a='32.00000,132.00000' b='16.00000,132.00000'/>
+		<WIRE a='16.00000,132.00000' b='16.00000,49.00000'/>
+		<WIRE a='16.00000,49.00000' b='27.00000,49.00000'/>
+		<WIRE a='38.00000,154.00000' b='38.00000,131.00000'/>
+		<WIRE a='56.00000,131.00000' b='130.00000,131.00000'/>
+		<JUNCTION pos='51.00000,131.00000'/>
+		<WIRE a='38.00000,131.00000' b='51.00000,131.00000'/>
+		<WIRE a='52.00000,154.00000' b='52.00000,136.00000'/>
+		<WIRE a='52.00000,136.00000' b='56.00000,136.00000'/>
+		<WIRE a='56.00000,136.00000' b='56.00000,131.00000'/>
+		<JUNCTION pos='56.00000,131.00000'/>
+		<WIRE a='51.00000,131.00000' b='56.00000,131.00000'/>
+		<TEXT pos='38.00000,166.00000' direction='3' font='3' color='000000'>EMG Sensor</TEXT>
+		<LABEL pos='64.00000,166.00000' direction='3' font='0' color='000000' style='0'>Electrodes</LABEL>
 	</TinyCAD>
 </TinyCADSheets>
