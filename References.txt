@@ -1,0 +1,5 @@
+Actuator tutorial
+https://arduinogetstarted.com/tutorials/arduino-actuator
+
+EMG tutorial
+https://electropeak.com/learn/interfacing-emg-muscular-signal-sensor-with-arduino/
