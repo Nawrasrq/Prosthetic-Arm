@@ -1,5 +1,6 @@
 Actuator tutorial
 https://arduinogetstarted.com/tutorials/arduino-actuator
+https://www.actuonix.com/Actuonix-PQ12-R-micro-linear-servos-for-RC-p/pq12-r.htm
 
 EMG tutorial
 https://electropeak.com/learn/interfacing-emg-muscular-signal-sensor-with-arduino/
