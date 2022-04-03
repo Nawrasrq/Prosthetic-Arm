@@ -4,3 +4,5 @@ https://www.actuonix.com/Actuonix-PQ12-R-micro-linear-servos-for-RC-p/pq12-r.htm
 
 EMG tutorial
 https://electropeak.com/learn/interfacing-emg-muscular-signal-sensor-with-arduino/
+
+https://cdn.sparkfun.com/datasheets/Sensors/Biometric/MyowareUserManualAT-04-001.pdf
